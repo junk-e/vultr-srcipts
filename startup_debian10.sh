@@ -30,4 +30,6 @@ export TERM=vt100
 EOF
 
 # Clone vultr-scripts
-git clone https://github.com/junk-e/vultr-srcipts.git /root
+pushd /root
+git clone https://github.com/junk-e/vultr-srcipts.git
+popd
